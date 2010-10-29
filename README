@@ -1,0 +1,6 @@
+Dyndns client tool: ruby scripts run on your linux pc to update your ip for your hostname in DynDns system.
+
+Run setup.sh to create /usr/local/dyndns_client folder and copy in-need files to the new folder
+Go to the /usr/local/dyndns_client, edit the dynclient.rb file, replace the information about hostname, username and password of your DynDns account.
+
+You could run directly dynclient.sh, or create cron schedule job to run this tool.
